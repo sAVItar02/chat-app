@@ -12,13 +12,13 @@
   </head>
   <body>
     <div class="chat">
-      <div class="chat__sidebar"></div>
+      <div id="sidebar" class="chat__sidebar"></div>
       <div class="chat__main">
         <div id="messages" class="chat__messages"></div>
 
         <div class="compose">
           <form id="message-form">
-            <input type="text" name="message" id="message" placeholder="Message" autocomplete="off" />
+            <input type="text" name="message" id="message" placeholder="Message" required autocomplete="off" />
             <button id="send" type="submit">Send</button>
           </form>
   
